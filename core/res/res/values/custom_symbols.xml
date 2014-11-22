@@ -60,6 +60,8 @@
   <java-symbol type="array" name="shutdown_reboot_options" />
   <java-symbol type="string" name="reboot_system" />
   <java-symbol type="string" name="reboot_progress" />
+  <java-symbol name="ic_lock_power_screenshot" type="drawable" />
+  <java-symbol name="global_action_screenshot" type="string" />
 
   <!-- Config.xml entries -->
   <java-symbol type="string" name="config_deviceKeyHandlerLib" />
