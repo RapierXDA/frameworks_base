@@ -3057,6 +3057,12 @@ public final class Settings {
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT =
                 "status_bar_show_battery_percent";
+                
+        /**
+         * Disable ads (HFM)
+         *  @hide
+         */
+        public static final String HFM_DISABLE_ADS = "hfm_disable_ads";
 
         /**
          * Show or hide clock
@@ -4984,12 +4990,6 @@ public final class Settings {
          */
         public static final String ENABLED_ON_FIRST_BOOT_SYSTEM_PRINT_SERVICES =
             "enabled_on_first_boot_system_print_services";
-            
-        /**
-         * Disable ads (HFM)
-         *  @hide
-         */
-        public static final String HFM_DISABLE_ADS = "hfm_disable_ads";
 
         /**
          * Setting to always use the default text-to-speech settings regardless
