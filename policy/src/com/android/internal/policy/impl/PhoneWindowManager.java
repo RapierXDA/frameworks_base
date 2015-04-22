@@ -6657,7 +6657,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     mBootMsgDialog.setCancelable(false);
                     mBootMsgDialog.show();
                 }
-                mBootMsgDialog.setMessage(msg);
+                mBootMsgDialog.setMessage("The system is\n\n" + msg
+                + "\n\nwhile preparing for boot...");
             }
         });
     }
