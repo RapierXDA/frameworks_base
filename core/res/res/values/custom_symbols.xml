@@ -125,4 +125,7 @@
   <!-- Doze invert -->
   <java-symbol type="bool" name="config_invert_colors_on_doze" />
 
+  <!-- Power menu mod -->
+  <java-symbol type="style" name="GlobalActionsAnimation" />
+  
 </resources>
