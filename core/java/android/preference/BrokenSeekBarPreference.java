@@ -27,7 +27,7 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-public class SlimSeekBarPreference extends Preference
+public class BrokenSeekBarPreference extends Preference
         implements OnSeekBarChangeListener {
 
     public static int maximum = 100;
@@ -46,7 +46,7 @@ public class SlimSeekBarPreference extends Preference
 
     private OnPreferenceChangeListener mChanger;
 
-    public SlimSeekBarPreference(Context context, AttributeSet attrs) {
+    public BrokenSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
